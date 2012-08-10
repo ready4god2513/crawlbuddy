@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Crawlbuddy::VERSION
   
   gem.add_dependency("robots")
+  gem.add_dependency("redis")
 end
