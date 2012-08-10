@@ -1,5 +1,4 @@
 require "crawlbuddy/version"
-
-module Crawlbuddy
-  # Your code goes here...
-end
+require "crawlbuddy/crawler"
+require "crawlbuddy/parser"
+require "crawlbuddy/validator"
