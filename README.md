@@ -46,6 +46,13 @@ In many applications, the crawler should operate in continuous mode: it should o
 #### Extensible:
 Crawlers should be designed to be extensible in many ways - to cope with new data formats, new fetch protocols, and so on. This demands that the crawler architecture be modular.
 
+
+## Requirements
+
+1. Only one connection should be open to any given host at a time.
+2. A waiting time of a few seconds should occur between successive requests to a host.
+3. Politeness restrictions detailed in Section [20.2.1](http://nlp.stanford.edu/IR-book/html/htmledition/crawler-architecture-1.html#sec:crawlarch) should be obeyed.
+
 ## Contributing
 
 1. Fork it
