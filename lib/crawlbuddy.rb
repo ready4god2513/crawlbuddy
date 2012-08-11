@@ -1,4 +1,8 @@
 require "crawlbuddy/version"
 require "crawlbuddy/crawler"
+require "crawlbuddy/domain"
+require "crawlbuddy/frontier"
+require "crawlbuddy/page"
 require "crawlbuddy/parser"
+require "crawlbuddy/user_agent"
 require "crawlbuddy/validator"

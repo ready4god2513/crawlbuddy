@@ -4,3 +4,4 @@ source 'https://rubygems.org'
 gemspec
 
 gem "rspec"
+gem "factory_girl", "~> 4.0"
